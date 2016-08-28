@@ -1,0 +1,554 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		86F650AB1D72605A00D5412D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 86F650AA1D72605A00D5412D /* main.m */; };
+		86F650AE1D72605A00D5412D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 86F650AD1D72605A00D5412D /* AppDelegate.m */; };
+		86F650B11D72605A00D5412D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 86F650B01D72605A00D5412D /* ViewController.m */; };
+		86F650B41D72605A00D5412D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 86F650B21D72605A00D5412D /* Main.storyboard */; };
+		86F650B61D72605A00D5412D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 86F650B51D72605A00D5412D /* Assets.xcassets */; };
+		86F650B91D72605A00D5412D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 86F650B71D72605A00D5412D /* LaunchScreen.storyboard */; };
+		86F650C41D72605A00D5412D /* URLMusicTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 86F650C31D72605A00D5412D /* URLMusicTests.m */; };
+		86F650CF1D72605A00D5412D /* URLMusicUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 86F650CE1D72605A00D5412D /* URLMusicUITests.m */; };
+		86F650DE1D72654C00D5412D /* UMNoUse.m in Sources */ = {isa = PBXBuildFile; fileRef = 86F650DD1D72654C00D5412D /* UMNoUse.m */; };
+		86F650E21D7274A400D5412D /* UMTrackCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 86F650E11D7274A400D5412D /* UMTrackCell.m */; };
+		86F650E51D72936B00D5412D /* UMTrack.m in Sources */ = {isa = PBXBuildFile; fileRef = 86F650E41D72936B00D5412D /* UMTrack.m */; };
+		86F650E81D72A4AE00D5412D /* UMDownload.m in Sources */ = {isa = PBXBuildFile; fileRef = 86F650E71D72A4AE00D5412D /* UMDownload.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		86F650C01D72605A00D5412D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 86F6509E1D72605A00D5412D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 86F650A51D72605A00D5412D;
+			remoteInfo = URLMusic;
+		};
+		86F650CB1D72605A00D5412D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 86F6509E1D72605A00D5412D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 86F650A51D72605A00D5412D;
+			remoteInfo = URLMusic;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		86F650A61D72605A00D5412D /* URLMusic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = URLMusic.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		86F650AA1D72605A00D5412D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		86F650AC1D72605A00D5412D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		86F650AD1D72605A00D5412D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		86F650AF1D72605A00D5412D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		86F650B01D72605A00D5412D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		86F650B31D72605A00D5412D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		86F650B51D72605A00D5412D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		86F650B81D72605A00D5412D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		86F650BA1D72605A00D5412D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		86F650BF1D72605A00D5412D /* URLMusicTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = URLMusicTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		86F650C31D72605A00D5412D /* URLMusicTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = URLMusicTests.m; sourceTree = "<group>"; };
+		86F650C51D72605A00D5412D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		86F650CA1D72605A00D5412D /* URLMusicUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = URLMusicUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		86F650CE1D72605A00D5412D /* URLMusicUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = URLMusicUITests.m; sourceTree = "<group>"; };
+		86F650D01D72605A00D5412D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		86F650DC1D72654C00D5412D /* UMNoUse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UMNoUse.h; sourceTree = "<group>"; };
+		86F650DD1D72654C00D5412D /* UMNoUse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UMNoUse.m; sourceTree = "<group>"; };
+		86F650DF1D726F9400D5412D /* UMPCH.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UMPCH.pch; sourceTree = "<group>"; };
+		86F650E01D7274A400D5412D /* UMTrackCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UMTrackCell.h; sourceTree = "<group>"; };
+		86F650E11D7274A400D5412D /* UMTrackCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UMTrackCell.m; sourceTree = "<group>"; };
+		86F650E31D72936B00D5412D /* UMTrack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UMTrack.h; sourceTree = "<group>"; };
+		86F650E41D72936B00D5412D /* UMTrack.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UMTrack.m; sourceTree = "<group>"; };
+		86F650E61D72A4AE00D5412D /* UMDownload.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UMDownload.h; sourceTree = "<group>"; };
+		86F650E71D72A4AE00D5412D /* UMDownload.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UMDownload.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		86F650A31D72605A00D5412D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		86F650BC1D72605A00D5412D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		86F650C71D72605A00D5412D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		86F6509D1D72605A00D5412D = {
+			isa = PBXGroup;
+			children = (
+				86F650A81D72605A00D5412D /* URLMusic */,
+				86F650C21D72605A00D5412D /* URLMusicTests */,
+				86F650CD1D72605A00D5412D /* URLMusicUITests */,
+				86F650A71D72605A00D5412D /* Products */,
+			);
+			sourceTree = "<group>";
+			tabWidth = 4;
+		};
+		86F650A71D72605A00D5412D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				86F650A61D72605A00D5412D /* URLMusic.app */,
+				86F650BF1D72605A00D5412D /* URLMusicTests.xctest */,
+				86F650CA1D72605A00D5412D /* URLMusicUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		86F650A81D72605A00D5412D /* URLMusic */ = {
+			isa = PBXGroup;
+			children = (
+				86F650AC1D72605A00D5412D /* AppDelegate.h */,
+				86F650AD1D72605A00D5412D /* AppDelegate.m */,
+				86F650AF1D72605A00D5412D /* ViewController.h */,
+				86F650B01D72605A00D5412D /* ViewController.m */,
+				86F650E01D7274A400D5412D /* UMTrackCell.h */,
+				86F650E11D7274A400D5412D /* UMTrackCell.m */,
+				86F650E31D72936B00D5412D /* UMTrack.h */,
+				86F650E41D72936B00D5412D /* UMTrack.m */,
+				86F650E61D72A4AE00D5412D /* UMDownload.h */,
+				86F650E71D72A4AE00D5412D /* UMDownload.m */,
+				86F650DC1D72654C00D5412D /* UMNoUse.h */,
+				86F650DD1D72654C00D5412D /* UMNoUse.m */,
+				86F650B21D72605A00D5412D /* Main.storyboard */,
+				86F650B51D72605A00D5412D /* Assets.xcassets */,
+				86F650B71D72605A00D5412D /* LaunchScreen.storyboard */,
+				86F650BA1D72605A00D5412D /* Info.plist */,
+				86F650A91D72605A00D5412D /* Supporting Files */,
+			);
+			path = URLMusic;
+			sourceTree = "<group>";
+		};
+		86F650A91D72605A00D5412D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				86F650AA1D72605A00D5412D /* main.m */,
+				86F650DF1D726F9400D5412D /* UMPCH.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		86F650C21D72605A00D5412D /* URLMusicTests */ = {
+			isa = PBXGroup;
+			children = (
+				86F650C31D72605A00D5412D /* URLMusicTests.m */,
+				86F650C51D72605A00D5412D /* Info.plist */,
+			);
+			path = URLMusicTests;
+			sourceTree = "<group>";
+		};
+		86F650CD1D72605A00D5412D /* URLMusicUITests */ = {
+			isa = PBXGroup;
+			children = (
+				86F650CE1D72605A00D5412D /* URLMusicUITests.m */,
+				86F650D01D72605A00D5412D /* Info.plist */,
+			);
+			path = URLMusicUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		86F650A51D72605A00D5412D /* URLMusic */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 86F650D31D72605A00D5412D /* Build configuration list for PBXNativeTarget "URLMusic" */;
+			buildPhases = (
+				86F650A21D72605A00D5412D /* Sources */,
+				86F650A31D72605A00D5412D /* Frameworks */,
+				86F650A41D72605A00D5412D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = URLMusic;
+			productName = URLMusic;
+			productReference = 86F650A61D72605A00D5412D /* URLMusic.app */;
+			productType = "com.apple.product-type.application";
+		};
+		86F650BE1D72605A00D5412D /* URLMusicTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 86F650D61D72605A00D5412D /* Build configuration list for PBXNativeTarget "URLMusicTests" */;
+			buildPhases = (
+				86F650BB1D72605A00D5412D /* Sources */,
+				86F650BC1D72605A00D5412D /* Frameworks */,
+				86F650BD1D72605A00D5412D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				86F650C11D72605A00D5412D /* PBXTargetDependency */,
+			);
+			name = URLMusicTests;
+			productName = URLMusicTests;
+			productReference = 86F650BF1D72605A00D5412D /* URLMusicTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		86F650C91D72605A00D5412D /* URLMusicUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 86F650D91D72605A00D5412D /* Build configuration list for PBXNativeTarget "URLMusicUITests" */;
+			buildPhases = (
+				86F650C61D72605A00D5412D /* Sources */,
+				86F650C71D72605A00D5412D /* Frameworks */,
+				86F650C81D72605A00D5412D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				86F650CC1D72605A00D5412D /* PBXTargetDependency */,
+			);
+			name = URLMusicUITests;
+			productName = URLMusicUITests;
+			productReference = 86F650CA1D72605A00D5412D /* URLMusicUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		86F6509E1D72605A00D5412D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = UM;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = bianwenhui;
+				TargetAttributes = {
+					86F650A51D72605A00D5412D = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = VL49D4QH2H;
+					};
+					86F650BE1D72605A00D5412D = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = VL49D4QH2H;
+						TestTargetID = 86F650A51D72605A00D5412D;
+					};
+					86F650C91D72605A00D5412D = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = VL49D4QH2H;
+						TestTargetID = 86F650A51D72605A00D5412D;
+					};
+				};
+			};
+			buildConfigurationList = 86F650A11D72605A00D5412D /* Build configuration list for PBXProject "URLMusic" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 86F6509D1D72605A00D5412D;
+			productRefGroup = 86F650A71D72605A00D5412D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				86F650A51D72605A00D5412D /* URLMusic */,
+				86F650BE1D72605A00D5412D /* URLMusicTests */,
+				86F650C91D72605A00D5412D /* URLMusicUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		86F650A41D72605A00D5412D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				86F650B91D72605A00D5412D /* LaunchScreen.storyboard in Resources */,
+				86F650B61D72605A00D5412D /* Assets.xcassets in Resources */,
+				86F650B41D72605A00D5412D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		86F650BD1D72605A00D5412D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		86F650C81D72605A00D5412D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		86F650A21D72605A00D5412D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				86F650E81D72A4AE00D5412D /* UMDownload.m in Sources */,
+				86F650DE1D72654C00D5412D /* UMNoUse.m in Sources */,
+				86F650B11D72605A00D5412D /* ViewController.m in Sources */,
+				86F650E21D7274A400D5412D /* UMTrackCell.m in Sources */,
+				86F650AE1D72605A00D5412D /* AppDelegate.m in Sources */,
+				86F650AB1D72605A00D5412D /* main.m in Sources */,
+				86F650E51D72936B00D5412D /* UMTrack.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		86F650BB1D72605A00D5412D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				86F650C41D72605A00D5412D /* URLMusicTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		86F650C61D72605A00D5412D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				86F650CF1D72605A00D5412D /* URLMusicUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		86F650C11D72605A00D5412D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 86F650A51D72605A00D5412D /* URLMusic */;
+			targetProxy = 86F650C01D72605A00D5412D /* PBXContainerItemProxy */;
+		};
+		86F650CC1D72605A00D5412D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 86F650A51D72605A00D5412D /* URLMusic */;
+			targetProxy = 86F650CB1D72605A00D5412D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		86F650B21D72605A00D5412D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				86F650B31D72605A00D5412D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		86F650B71D72605A00D5412D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				86F650B81D72605A00D5412D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		86F650D11D72605A00D5412D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		86F650D21D72605A00D5412D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		86F650D41D72605A00D5412D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/URLMusic/UMPCH.pch";
+				INFOPLIST_FILE = URLMusic/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bianwenhui.URLMusic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		86F650D51D72605A00D5412D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/URLMusic/UMPCH.pch";
+				INFOPLIST_FILE = URLMusic/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bianwenhui.URLMusic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		86F650D71D72605A00D5412D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = URLMusicTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bianwenhui.URLMusicTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/URLMusic.app/URLMusic";
+			};
+			name = Debug;
+		};
+		86F650D81D72605A00D5412D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = URLMusicTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bianwenhui.URLMusicTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/URLMusic.app/URLMusic";
+			};
+			name = Release;
+		};
+		86F650DA1D72605A00D5412D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = URLMusicUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bianwenhui.URLMusicUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = URLMusic;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		86F650DB1D72605A00D5412D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = URLMusicUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bianwenhui.URLMusicUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = URLMusic;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		86F650A11D72605A00D5412D /* Build configuration list for PBXProject "URLMusic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				86F650D11D72605A00D5412D /* Debug */,
+				86F650D21D72605A00D5412D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		86F650D31D72605A00D5412D /* Build configuration list for PBXNativeTarget "URLMusic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				86F650D41D72605A00D5412D /* Debug */,
+				86F650D51D72605A00D5412D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		86F650D61D72605A00D5412D /* Build configuration list for PBXNativeTarget "URLMusicTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				86F650D71D72605A00D5412D /* Debug */,
+				86F650D81D72605A00D5412D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		86F650D91D72605A00D5412D /* Build configuration list for PBXNativeTarget "URLMusicUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				86F650DA1D72605A00D5412D /* Debug */,
+				86F650DB1D72605A00D5412D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 86F6509E1D72605A00D5412D /* Project object */;
+}

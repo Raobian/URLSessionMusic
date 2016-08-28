@@ -1,0 +1,24 @@
+//
+//  UMPCH.pch
+//  URLMusic
+//
+//  Created by 边文辉 on 16/8/28.
+//  Copyright © 2016年 bianwenhui. All rights reserved.
+//
+
+#ifndef UMPCH_pch
+#define UMPCH_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#ifdef __OBJC__
+
+#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
+
+#define tColor [UIColor colorWithRed:242/255.0 green:71/255.0 blue:63/255.0 alpha:1]
+
+#endif /* __OBJC__ */
+
+#endif /* UMPCH_pch */
