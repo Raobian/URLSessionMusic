@@ -206,12 +206,10 @@ static NSString * const ID = @"TrackCell";
         
         AVPlayerViewController *avpv = [AVPlayerViewController new];
         avpv.player = [AVPlayer playerWithURL:url];
-        [avpv.player play];
-        [self presentViewController:avpv animated:YES completion:nil];
+//        [avpv.player play];
+//        [self presentViewController:avpv animated:YES completion:nil];
         [self presentViewController:avpv animated:YES completion:^{
-            if (avpv) {
-                
-            }
+            [avpv.player play];
         }];
     }
     
